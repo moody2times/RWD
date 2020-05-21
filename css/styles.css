@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    font-size: 100%;
+    line-height: 1.5;
+    max-width: 320px;
+}
+header {
+    background-color: skyblue;
+    margin: 0;
+}
+h1 {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+h2 {
+   font-size: 1rem;
+   color: navy;
+    margin:0 0 10%;
+}
+h3 {
+    color: navy;
+    font-size: 1rem;
+    font-weight: 900;
+}
+nav {
+    background-color: powderblue;
+}
+.nav{
+    color: navy;
+    padding: 15px;
+    position: relative;
+}
+ul {
+    border: 1px solid navy;
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 45px;
+    width: 200px;
+}
+ul li {
+    background-color: skyblue;
+    border-bottom: 1px solid navy;
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+}
+ul li:last-child {
+    border-bottom: none;
+}
+.menu {
+    color: navy;
+    display: block;
+    font-family: candara;
+    font-weight: 600;
+    padding: 15px 5px;
+    text-decoration: none;
+}
+.menu:active {
+    background-color: steelblue;
+}
+.menu:visited {
+    color: slateblue;
+}
+.menu:hover {
+    background-color: navy;
+    color: whitesmoke;
+    display: block;
+    font-weight: 600;
+}
+section {
+    background-color: aliceblue;
+    text-align: justify;
+}
+footer {
+    background-color: skyblue;
+    font-weight: 400;
+    padding: 15px;
+}
+footer > p {
+    font-size: 0.8rem;
+}
+span {
+    margin: 0 8% 0 0;
+    padding-left: 0;
+}
+.mycontact {
+    text-decoration: none;
+}
+.mycontact:visited {
+    color: royalblue;
+}
+.mycontact:hover {
+    color:navy;
+}
+.col {
+    padding: 15px;
+    width: 100%;
+}
+/* for tablet */
+@media screen and (min-width: 600px) {
+    body {
+        font-size: 100%;
+        letter-spacing: 0.1rem;
+        line-height: 2;
+        max-width: 600px;
+    }
+    h1 {
+        font-size: 2.4rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    div > p {
+        font-size: 1.1rem;
+    }
+    footer {
+        text-align: center;
+    }
+    footer > p {
+        font-size: 1rem;
+    }
+    span {
+        margin: 2% 3%;
+        padding: 0;
+    }
+    /* for desktop */
+@media screen and (min-width: 1200px) {
+    body {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+    .nav {
+        padding-left: 0;
+    }
+   .menu-nav {
+        display: none;
+    }
+    ul {
+        border: none;
+        display: block;
+        margin-right: 0;
+        position: static;
+        width: 270px;
+    }
+    ul li {
+        background-color: transparent;
+        border: none;
+        display: block;
+    }
+    h1 {
+        font-size: 4rem;
+        margin-top: 0;
+    }
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 3%;
+    }
+    footer p{
+        margin: 3% 0 0;
+    }
+    .mycontact span {
+        margin: 0;
+        padding: 3%;
+    }
+   .row::after {
+    content: "";
+    clear: both;
+    display: block;
+    }
+    [class*="col-"] {
+    float: left;
+    padding: 15px;
+    }
+    .col-l-1 { width: 8.33%;}
+    .col-l-2 { width: 16.66%;}
+    .col-l-3 { width: 25%;}
+    .col-l-4 { width: 33.33%;}
+    .col-l-5 { width: 41.66%;}
+    .col-l-6 { width: 50%;}
+    .col-l-7 { width: 58.33%;}
+    .col-l-8 { width: 66.66%;}
+    .col-l-9 { width: 75%;}
+    .col-l-10 { width: 83.33%;}
+    .col-l-11 { width: 91.66%;}
+    .col-l-12 { width: 100%;}
+}
