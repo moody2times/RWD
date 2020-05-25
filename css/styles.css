@@ -7,7 +7,6 @@ html {
 body {
     font-size: 100%;
     line-height: 1.5;
-    margin: 0 auto;
     max-width: 370px;
 }
 header {
@@ -44,13 +43,13 @@ ul {
     padding: 0;
     position: absolute;
     top: 45px;
-    width: 200px;
+    width: 300px;
 }
 ul li {
     background-color: skyblue;
     border-bottom: 1px solid navy;
     display: block;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 ul li:last-child {
@@ -111,7 +110,6 @@ span {
         font-size: 100%;
         letter-spacing: 0.1rem;
         line-height: 2;
-        margin: 0 auto;
         max-width: 600px;
     }
     h1 {
@@ -145,7 +143,8 @@ span {
     .nav {
         padding-left: 0;
     }
-   .menu-nav {
+    }
+    i.fa, .fa-bars, .meun-nav {
         display: none;
     }
     ul {
