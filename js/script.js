@@ -1,5 +1,5 @@
 $("body").click(function() {
-   $("ul").slideUp.(100);
+   $("ul").slideUp(100);
 });
 
 $("i").click(function (event) {
