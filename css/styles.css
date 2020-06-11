@@ -25,7 +25,7 @@ h2 {
 h3 {
     color: navy;
     font-size: 1rem;
-    font-weight: 900;
+    font-weight: 600;
 }
 nav {
     background-color: powderblue;
@@ -75,6 +75,13 @@ ul li:last-child {
     display: block;
     font-weight: 600;
 }
+.menu-nav, .brand, h4 {
+    display: inline;
+}
+.brand {
+    float: right;
+    padding: 0 15px;
+}
 section {
     background-color: aliceblue;
     text-align: justify;
@@ -83,12 +90,13 @@ footer {
     background-color: skyblue;
     font-weight: 400;
     padding: 15px;
+    text-align: center;
 }
-footer > p {
-    font-size: 0.8rem;
+footer  p {
+    font-size: 0.8rem;  
 }
 span {
-    margin: 0 8% 0 0;
+    margin: 0 3%;
     padding-left: 0;
 }
 .mycontact {
@@ -134,30 +142,30 @@ span {
         margin: 2% 3%;
         padding: 0;
     }
+}
     /* for desktop */
 @media screen and (min-width: 1200px) {
     body {
         margin: 0 auto;
         max-width: 1200px;
     }
-    .nav {
-        padding-left: 0;
+    nav, .nav {
+        padding: 0;
     }
-    }
-    i.fa, .fa-bars, .meun-nav {
+    .menu-nav {
         display: none;
     }
     ul {
         border: none;
-        display: block;
+        display: inline-block;
         margin-right: 0;
         position: static;
-        width: 270px;
+        width: 800px;
     }
     ul li {
         background-color: transparent;
         border: none;
-        display: block;
+        display: inline-block;
     }
     h1 {
         font-size: 4rem;
@@ -166,6 +174,21 @@ span {
     h2 {
         font-size: 2rem;
         margin-bottom: 3%;
+    }
+    .menu {
+        display: inline-block;
+        margin: 0;
+        padding: 10px 30px 10px 15px;
+        text-align: center;
+    }
+    .brand {
+        float: right;
+        margin-top: 15px;
+    }
+    h4 {
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 15px;
     }
     footer p{
         margin: 3% 0 0;
