@@ -1,13 +1,9 @@
-$("i").click(function () {
-    $("ul").slideToggle(100);
+$("body").click(function() {
+   $("ul").slideUp.(100);
 });
 
-$(document).click(function (event) {
-const targetAtrribute = event.target.id;
-    if (targetAtrribute === "") {
-        const menu = $("ul").css("display");
-        if(menu === "block") {
-            $("ul").toggle();
-        }
-    }
+$("i").click(function (event) {
+    event.stopPropagation();
+   $("ul").slideToggle(100);
 });
+
