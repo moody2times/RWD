@@ -15,21 +15,19 @@ header {
 }
 h1, h2, h3 {
     font-family: 'Caudex', serif;
+    font-weight: 900;
 }
 h1 {
     font-size: 1.3rem;
     margin-bottom: 0;
 }
 h2 {
-   font-size: 1rem;
-   color: navy;
-    margin:0 0 10%;
+      margin:0 0 10%;
 }
-h3 {
+h2, h3 {
     color: navy;
     font-size: 1rem;
-    font-weight: 600;
-}
+   }
 nav {
     background-color: powderblue;
 }
