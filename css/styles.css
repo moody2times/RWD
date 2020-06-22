@@ -13,6 +13,9 @@ header {
     background-color: skyblue;
     margin: 0;
 }
+h1, h2, h3 {
+    font-family: 'Caudex', serif;
+}
 h1 {
     font-size: 1.3rem;
     margin-bottom: 0;
