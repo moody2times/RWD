@@ -42,10 +42,10 @@ ul {
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 45px;
+    top: 45px; 
     width: 300px;
 }
-ul li {
+ul li { 
     background-color: skyblue;
     border-bottom: 1px solid navy;
     display: block;
